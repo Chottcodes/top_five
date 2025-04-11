@@ -8,4 +8,5 @@ Chris Wells-Hott
 
  // You can add multiple dates with description:4/10/2025
 
-// Person who Peer Reviewed your assignment:
+// Person who Peer Reviewed your assignment: Gianpaolo Reinares
+> Comments: Site looks amazing! The Layout is fantastic, as well as the use of gifs are amazing; my only complaint is that I can't read the text as it is a bit too dark against the black background (); besides that everything else looks great; (It almost looks like something that could be used for a portfolio website)
