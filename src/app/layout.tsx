@@ -28,6 +28,7 @@ export default function RootLayout({
     <html lang="en" className={GeistMono.className}>
       <Head>
         <link rel="icon" href="/Computer.png"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kennethcachia/wickedCSS@master/dist/wickedcss.min.css"/>
       </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
