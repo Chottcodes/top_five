@@ -3,16 +3,17 @@ import JobDisplay from "./components/jobDisplay";
 import { CompanyData } from "./Data/companyData";
 
 export default function Home() {
+
   return (
     <div className="bg-black h-full">
-      <header className="w-full h-[350px] bg-amber-50">
+      <header className="w-full h-[200px] lg:h-[350px] bg-amber-50 rounded-b-lg">
         <HeroImageComponent />
       </header>
-      <main className="w-full h-full flex flex-col items-center gap-5 pb-10 pt-5">
+      <main className="w-full h-full flex flex-col items-center gap-5 pb-5 lg:pb-10 pt-5">
         {CompanyData.map((data, index) => (
           <section
             key={index}
-            className="lg:w-[90%] lg:h-[300px] border-1 border-gray-50 border-dashed rounded-lg overflow-hidden "
+            className="w-[90%] h-[600px] lg:w-[90%] lg:h-[300px] border-1 border-gray-50 border-dashed rounded-lg overflow-hidden "
           >
             <JobDisplay
               companyTitle={data.companyName}
