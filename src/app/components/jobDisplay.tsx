@@ -4,6 +4,7 @@ import Image from "next/image";
 
 interface types {
   companyTitle: string;
+  comapanyLink:string;
   jobTitle: string;
   pay: string;
   description: string;
@@ -20,6 +21,7 @@ interface types {
 
 const jobDisplay = ({
   companyTitle,
+  comapanyLink,
   jobTitle,
   pay,
   description,
@@ -37,7 +39,7 @@ const jobDisplay = ({
     <div className="w-full h-full flex flex-col-reverse justify-center items-center lg:flex-row transform-all duration-300">
       <section className="h-[70%] lg:w-[50%] lg:h-full flex flex-col justify-start items-center transform-all duration-300">
         <div className="h-[20%] w-full flex justify-center items-center text-xl lg:text-3xl transform-all duration-300 ">
-          <p>{companyTitle}</p>
+          <a href={comapanyLink} target="blank" className="cursor-pointer">{companyTitle}</a>
         </div>
         <section className="h-[60%] w-[90%]  lg:h-[55%] lg:w-[90%] text-center relative transform-all duration-300">
           <div className="absolute top-0 w-full h-2 lg:h-3  bg-gradient-to-b from-black to-transparent"></div>

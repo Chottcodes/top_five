@@ -1,5 +1,6 @@
 export interface companyTypes {
   companyName: string;
+  companyLinks:string
   role: string;
   pay: string;
   description: string;

@@ -3,6 +3,7 @@ import { companyTypes } from "../interfaces/companyInterface"
 export const CompanyData:companyTypes[] = [
     {
         companyName: "Apple",
+        companyLinks:'https://jobs.apple.com/en-us/details/200581888/senior-software-engineer-swift-on-server-ase?team=SFTWR',
         pay: "$120,000 - $150,000",
         role: "Junior IOS Developer",
         description: "I’d love to have a role at Apple as an iOS Developer because it would be amazing to work with experienced developers and contribute to the future of products like the iPhone, iPad, and Apple Watch. One of the things that really stands out to me about Apple is the environment—it seems like a place where I could really grow, learn, and build features that millions of people use every day. If I got the chance to join the team, one of my long-term goals would be to grow into a senior developer role, taking on more complex challenges and making a bigger impact. I would have to learn new tools such as Swift,and Python.",
@@ -33,6 +34,7 @@ export const CompanyData:companyTypes[] = [
         icon2: '/assets/images/physics.png',
         icon3: '/assets/images/typescript.png',
         icon4: '/assets/images/graphql.svg',
+        companyLinks: "https://boards.greenhouse.io/embed/job_app?token=6686473&for=coinbase&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
     },
     {
         companyName: "Harley Davidson",
@@ -48,7 +50,8 @@ export const CompanyData:companyTypes[] = [
         icon1: '/assets/images/c-sharp.png',
         icon2: '/assets/images/nodejs.png',
         icon3: '/assets/images/physics.png',
-        icon4: '/assets/images/programing.png'
+        icon4: '/assets/images/programing.png',
+        companyLinks: "https://www.indeed.com/cmp/Harley--davidson,-Inc.-1/jobs?jk=9af8b51bebc31726&q=Software%20Engineer&l=&start=0"
     },
     {
         companyName: "GoPro",
@@ -64,7 +67,8 @@ export const CompanyData:companyTypes[] = [
         icon1: '/assets/images/js.png',
         icon2: '/assets/images/physics.png',
         icon3: '/assets/images/nodejs.png',
-        icon4: '/assets/images/python.png'
+        icon4: '/assets/images/python.png',
+        companyLinks: "https://jobs.gopro.com/en/us/jobs/engineering/bucharest/senior-embedded-software-engineer-gopro-camera-firmware/6759269?gh_jid=6759269"
     },
     {
         companyName: "Chess.com",
@@ -80,7 +84,8 @@ export const CompanyData:companyTypes[] = [
         icon1: '/assets/images/js.png',
         icon2: '/assets/images/typescript.png',
         icon3: '/assets/images/php.png',
-        icon4: '/assets/images/python.png'
+        icon4: '/assets/images/python.png',
+        companyLinks: "https://ats.rippling.com/en-CA/chess/jobs/f25f7565-3788-4a55-a8e8-7c2ed7f41f16"
     },
 ]
 
